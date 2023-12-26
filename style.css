@@ -39,6 +39,10 @@ body {
   margin: 5px auto;
 }
 
+.icon-cart:hover {
+  cursor: pointer;
+}
+
 .cart-product-count {
   display: none;
   position: absolute;
@@ -59,6 +63,11 @@ body {
   margin-left: 10px;
   height: auto;
   width: 40px;
+}
+
+.icon-avatar:hover {
+  cursor: pointer;
+  border-color: #ff7d1a solid 4px;
 }
 
 nav {
@@ -168,6 +177,11 @@ strong {
   text-align: center;
   border-radius: 8px;
   background-color: hsl(223, 64%, 98%);
+}
+
+.product-count-container img:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .product-count {
